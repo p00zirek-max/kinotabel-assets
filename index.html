@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <title>Кинотабель — Авансовый отчет</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Кинотабель</title>
-
-  <!-- Manifest + иконки -->
+  
+  <!-- Манифест и иконки -->
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="./icons/kino-icon-192.png" sizes="192x192">
   <link rel="apple-touch-icon" href="./icons/kino-icon-192.png">
   <meta name="theme-color" content="#ffffff">
-
-  <!-- Задержка перед редиректом -->
-  <script>
-    setTimeout(() => {
-      window.location.href = "https://script.google.com/macros/s/AKfycbxz3Wdkg1QVKeKThQ0kS9iOhprI4yIVdnlGQuabKG-x1qh82B_ySfhlCTRop7Wu3-XP1g/exec";
-    }, 1000); // 1000 мс = 1 секунда
-  </script>
+  
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #ffffff;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
 </head>
 <body>
-  <p style="text-align: center; margin-top: 50vh; font-size: 1.2rem;">
-    Загружаем форму Кинотабель…
-  </p>
+  <iframe src="https://script.google.com/macros/s/AKfycbxz3Wdkg1QVKeKThQ0kS9iOhprI4yIVdnlGQuabKG-x1qh82B_ySfhlCTRop7Wu3-XP1g/exec" allowfullscreen></iframe>
 </body>
 </html>
