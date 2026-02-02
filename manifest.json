@@ -2,7 +2,7 @@
   "name": "Кинотабель",
   "short_name": "Кинотабель",
   "description": "Учет смен и расчеты",
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
