@@ -2,11 +2,11 @@
   "name": "Кинотабель АО",
   "short_name": "АО",
   "display": "standalone",
-  "background_color": "#0a0a0f",
-  "theme_color": "#0a0a0f",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2563eb",
   "icons": [
     {
-      "src": "https://p00zirek-max.github.io/kinotabel-assets/123.png",
+      "src": "https://p00zirek-max.github.io/kinotabel-assets/ao-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
